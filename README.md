@@ -39,10 +39,11 @@ Clonar el repositorio institucional:
 
 Bash
 git clone https://github.com/Abdoesntwork1205/Planificador-Semanal-OAC
+
 cd PlanificadorOAC
 
 
-nstalar dependencias:
+Instalar dependencias:
 
 Bash
 yarn install
@@ -66,5 +67,6 @@ docker-compose up
 🏛️ Sobre el Proyecto
 
 Este planificador es una iniciativa para modernizar la gestión pública, permitiendo que la OAC mantenga un registro transparente y organizado de sus compromisos semanales, mejorando así el tiempo de respuesta al ciudadano.
+
 
 
