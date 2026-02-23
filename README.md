@@ -1,4 +1,4 @@
-﻿# Planificador Semanal OAC
+﻿# Planificador Semanal para la OAC
 
 📅 Planificador Semanal OAC | Gestión Eficiente de Atención al Ciudadano
 
@@ -66,4 +66,5 @@ docker-compose up
 🏛️ Sobre el Proyecto
 
 Este planificador es una iniciativa para modernizar la gestión pública, permitiendo que la OAC mantenga un registro transparente y organizado de sus compromisos semanales, mejorando así el tiempo de respuesta al ciudadano.
+
 
