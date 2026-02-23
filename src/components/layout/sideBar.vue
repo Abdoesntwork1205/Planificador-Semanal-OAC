@@ -5,7 +5,7 @@
       src="/img/logo-color.svg"
       width="42"
       height="42"
-      alt="WeekTodo Logo"
+      alt=" Logo"
       data-bs-toggle="modal"
       data-bs-target="#aboutModal"
       :title="$t('about.about')"
@@ -29,8 +29,7 @@
       :weekStartsOn="weekStartOnMonday"
     />
     <i v-if="showCalendar" class="bi-calendar-event" @click="changeDate" :title="$t('ui.calendar')"> </i>
-    <!-- <i class="bi-search" :title="$t('donate.supportUs')"></i>
-    <i class="bi-filter" :title="$t('donate.supportUs')" ></i> -->
+
     <i
       v-if="showCalendar"
       class="bi-arrow-repeat"
@@ -60,9 +59,6 @@
           <hr class="dropdown-divider" />
         </li>
         <li>
-          <a href="https://weektodo.me/support-us" target="_blank" class="dropdown-item" type="button">
-            <i class="bi-gift"></i> <span>{{ $t("donate.supportUs") }}</span>
-          </a>
         </li>
         <li>
           <button class="dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#aboutModal">
@@ -71,8 +67,8 @@
         </li>
       </ul>
     </div>
+  
 
-    <!-- <i class="bi-person-circle" :title="$t('donate.supportUs')" @click="openDonateModal"></i> -->
     <i class="bi-info-square" data-bs-toggle="modal" data-bs-target="#tipsModal" :title="$t('tips.tips')"></i>
     <i
       class="bi-gear"

@@ -101,10 +101,7 @@
                 </div>
 
                 <div class="form-check form-switch d-flex px-1 mb-3 justify-content-between">
-                  <label class="form-check-label flex-fill" for="reportErrors">{{ $t("settings.reportErrors")
-                  }}</label>
-                  <input class="form-check-input" type="checkbox" id="reportErrors" v-model="configData.reportErrors"
-                    @change="setSendErrors()" />
+
                 </div>
               </div>
             </div>
@@ -243,15 +240,15 @@
                     aria-label="Default select example" v-model="configData.notificationSound" @change="
                       changeConfig('notificationSound', configData.notificationSound)
                       ">
-                    <option value="none">None</option>
+                    <option value="none">Ninguno</option>
                     <option value="pop">Pop</option>
-                    <option value="bell">Bell</option>
-                    <option value="soft-bell">Soft Bell</option>
-                    <option value="soft">Soft</option>
-                    <option value="tiny">Tiny</option>
+                    <option value="bell">Campanada</option>
+                    <option value="soft-bell">Campanita</option>
+                    <option value="soft">Precaución</option>
+                    <option value="tiny">Suave</option>
                     <option value="piano">Piano</option>
-                    <option value="positive">Positive</option>
-                    <option value="metal">Metal</option>
+                    <option value="positive">Positivo</option>
+                    <option value="metal">Alerta</option>
                   </select>
                   <button class="btn" style="margin-left: 8px" type="button" @click="playSound">
                     <i class="bi-play-circle a"></i>
@@ -304,22 +301,6 @@
                   v-model="configData.language" @change="setLanguage">
                   <option value="en">English</option>
                   <option value="es">Español</option>
-                  <option value="fr">Français</option>
-                  <option value="de">Deutsch</option>
-                  <option value="it">Italiano</option>
-                  <option value="pt">Português</option>
-                  <option value="ru">русский</option>
-                  <option value="hi">हिंदी</option>
-                  <option value="ja">日本</option>
-                  <option value="pl">Polski</option>
-                  <option value="ar">عرب</option>
-                  <option value="ko">한국어</option>
-                  <option value="zh_cn">简体中文</option>
-                  <option value="zh_tw">繁體中文</option>
-                  <option value="uk">український</option>
-                  <option value="tr">Türk</option>
-                  <option value="vi">Tiếng Việt</option>
-                  <option value="he">עִברִית</option>
                 </select>
               </div>
             </div>

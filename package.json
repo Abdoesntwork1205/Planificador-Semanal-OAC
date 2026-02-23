@@ -1,16 +1,16 @@
 {
-  "name": "WeekToDo",
-  "version": "2.2.0",
+  "name": "oac",
+  "version": "1.0.0",
   "private": true,
-  "description": "Free and Open Source Minimalist Weekly Planner focused on privacy.",
-  "author": "Manuel Ernesto Garcia <contact@weektodo.me> (https://weektodo.me/)",
-  "homepage": "https://weektodo.me",
+  "description": "Planificador Semanal de la OAC - Contraloría Municipal de Barinas",
+  "author": "Abdiel Asad <abdielasad12@gmail.com> (https://linktr.ee/fleetwood.vzla)",
+  "homepage": "https://linktr.ee/fleetwood.vzla",
   "keywords": [
-    "ToDo",
-    "Weekly Planner",
-    "to-do",
-    "Productivity",
-    "Minimalist"
+    "Quehacer",
+    "Planificador Semanal",
+    "que-hacer",
+    "Productividad",
+    "Minimalismo"
   ],
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -24,7 +24,7 @@
     "test": "echo success"
   },
   "main": "background.js",
-  "repository": "https://github.com/manuelernestog/weektodo",
+  "repository": "https://github.com/Abdoesntwork1205/Planificador-Semanal-OAC",
   "dependencies": {
     "@achrinza/node-ipc": "^10.1.10",
     "@manuelernestog/click-handler": "^1.4.0",
@@ -37,12 +37,14 @@
     "core-js": "^3.20.1",
     "cryptocurrency-icons": "^0.17.1",
     "electron-config": "^2.0.0",
+    "http-server": "^14.1.1",
     "is-electron": "^2.2.1",
     "linkify-string": "^3.0.4",
     "linkifyjs": "^3.0.5",
     "lodash.uniqueid": "^4.0.1",
     "markdown-it": "^13.0.1",
     "moment": "^2.29.1",
+    "pkg": "^5.8.1",
     "rrule": "^2.6.9",
     "vue": "^3.2.26",
     "vue-i18n": "^9.1.9",

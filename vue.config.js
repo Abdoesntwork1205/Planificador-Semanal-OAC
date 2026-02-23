@@ -5,7 +5,7 @@ module.exports = {
       customFileProtocol: './',
       builderOptions: {
         appId: "weektodo-app.netlify.app",
-        productName: "WeekToDo",
+        productName: "Sistema CMB",
         publish: ["github"],
         linux: {
           category: "Utility",
